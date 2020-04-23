@@ -1,0 +1,259 @@
+.top-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: arial,sans-serif;
+    
+}
+.top-left {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    justify-content: flex-start;
+    
+    font-size: 14px;
+    align-items: center;
+    min-width: 600px;
+}
+.top-right{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    justify-content: flex-end;
+    
+    font-size: 14px;
+    align-items: center;
+}
+.logo {
+    margin: auto;
+    width: 50%;
+    
+    padding-top: 180px;
+    padding-bottom: 100px
+    max-width: 100vw;
+    text-align: center;
+    min-width: 800px;
+    min-height: 200px;
+    
+}
+.bottom-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: arial,sans-serif;
+   
+    
+    position: fixed;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 145px 155px;
+    grid-gap: 10px;
+    justify-content: center;
+}    
+
+
+.bottom-left {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    justify-content: flex-start;
+    grid-template-columns: repeat(3, 130px);
+    font-size: 14px;
+    
+    height: 40px;
+    align-items: center;
+    
+    
+    
+}
+.bottom-right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 0 0 50%;
+ 
+    font-size: 14px;
+    height: 40px;
+    align-items: center;
+    white-space: nowrap;
+
+    
+}
+.navbar {
+    overflow: scroll;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    background-color: rgb(242, 242, 242);
+    height: 40px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.search-bar {
+    width: 450px;
+    height: 35px;
+    border-radius: 30px 30px 30px 30px;
+    border-color: black;
+    opacity: 60%;
+    border: 1px solid lightgrey;
+    max-width: 100%;
+    
+}   
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28)
+}
+
+a {
+    text-color: black;
+}
+.about {
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+.about:hover {
+    text-decoration: underline;
+}
+.store {
+    color: #222;
+}
+.store:hover {
+    text-decoration: underline;
+}
+.gmail {
+    padding-right: 20px;
+    color: #222;
+}
+.gmail:hover {
+    text-decoration: underline;
+}
+.images {
+    padding-right: 20px;
+    color: #222;
+}
+.images:hover {
+    text-decoration: underline;
+}
+.grid {
+    padding-right: 20px;
+}
+.sign-in {
+    background-color: #4c8bf5;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5%;
+    font-family: arial,sans-serif;
+}
+.advertising {
+    padding-right: 20px;
+    padding-left: 17px;
+    color: rgb(94, 99, 104);
+}
+.advertising:hover{
+    text-decoration: underline;
+}
+.business {
+    padding-right: 20px;
+    color: rgb(94, 99, 104);
+}
+.business:hover {
+    text-decoration: underline;
+}
+.how {
+    padding-right: -5px; 
+    color: rgb(94, 99, 104);
+
+}
+.how:hover {
+    text-decoration: underline;
+}
+.privacy {
+    padding-right: 20px;
+    padding-left: -30px;
+    color: rgb(94, 99, 104);
+}
+.privacy:hover {
+    text-decoration: underline;
+}
+.terms {
+    padding-right: 20px;
+    color: rgb(94, 99, 104);
+}
+.terms:hover {
+    text-decoration: underline;
+}
+.settings{
+    padding-right: 17px;
+    color: rgb(94, 99, 104);
+}
+.settings:hover {
+    text-decoration: underline;
+}
+.search {
+    background-color: #f2f2f2;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5%;
+    font-family: arial,sans-serif;
+    color: rgb(94, 99, 104);
+    margin-top: 20px;
+    
+}
+.search:hover {
+    border: 1px solid lightgray;
+}
+.lucky {
+    background-color: #f2f2f2;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5%;
+    font-family: arial,sans-serif;
+    color: rgb(94, 99, 104);;
+    margin-top: 20px;
+    
+}
+.lucky:hover {
+    border: 1px solid lightgray;
+}
+.mag-glass {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    margin-right: -30px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+.microphone {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin-bottom: -8px;
+    margin-left: -40px;
+}
+.grid {
+    width: 16px;
+    height: 16px;
+    filter: opacity(65%);
+}
+.grid:hover {
+    filter: opacity(98%);
+}
+.poop {
+    color: #4c8bf5;
+}
